@@ -1,0 +1,33 @@
+{
+  "name": "react-starter",
+  "version": "1.0.0",
+  "description": "React project template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArikMaor/react-starter.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Arik Maor <arikmaor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArikMaor/react-starter/issues"
+  },
+  "homepage": "https://github.com/ArikMaor/react-starter#readme",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.2.6",
+    "@storybook/addon-links": "^3.2.6",
+    "@storybook/react": "^3.2.8"
+  }
+}

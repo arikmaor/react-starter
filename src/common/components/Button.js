@@ -1,7 +1,8 @@
 import React from 'react'
+import './Button.scss'
 
 const Button = (props) => (
-  <button {...props} />
+  <button styleName='button' {...props} />
 )
 
 export default Button

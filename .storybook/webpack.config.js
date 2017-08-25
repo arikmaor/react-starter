@@ -22,8 +22,17 @@ module.exports = (baseConfig, env) => {
         localIdentName: '[path]___[name]__[local]___[hash:base64:5]',
       },
     },
-    'sass-loader',
-    ],
+    {
+      loader: 'sass-loader',
+      options: {
+        data: `
+          @import '~common/styles/reboot.scss';
+          body {
+            margin: 8px;
+          }
+        `
+      }
+    }],
     include: paths.src,
   }, {
     test: /\.css$/,

@@ -1,17 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700');
-
-html, body {
-  height: 100%;
-  margin: 0;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
-  overflow: auto;
-}
-
-* {
-  box-sizing: border-box;
-}
-
+@import '~common/styles/reboot.scss';
 
 .container {
   height: 100%;

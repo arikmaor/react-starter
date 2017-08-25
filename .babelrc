@@ -23,14 +23,6 @@
     ],
     "transform-function-bind",
     "transform-decorators-legacy",
-    "transform-class-properties",
-    [
-      "lodash",
-      {
-        "id": [
-          "lodash"
-        ]
-      }
-    ]
+    "transform-class-properties"
   ]
 }
